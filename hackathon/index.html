@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>VZ Bootstrap Framework | Verizon</title>
+    <!-- Bootstrap core CSS -->
+	  <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/vzbootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="scripts/html5shiv.min.js"></script>
+      <script src="scripts/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!--Global Navigation-->
+    <header class="vz-global-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="http://vzdesign.verizon.com">VZDesign Home</a></li>
+              <li><a href="http://vzdesign.verizon.com/downloads/IntranetDesignGuidelines.pdf">Guidelines</a></li>
+              <li><a href="http://vzdesign.verizon.com/vzbootstrap">VZBootstrap</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+    </header>
+
+    <div class="container whitepage">
+
+      <div class="row row-eq-height">
+        <div class="col-md-9 col-sm-9 border-right">
+          <br />
+          <div class="section-divider-bottom">
+            <h2>VZBootstrap</h2>
+            <p>VZBootstrap is based on Bootstrap 3, the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. We chose this framework because it boasts an expansive community of developers and experts alongside rock-solid features and robust durability. This deep commercial and non-commercial cutting-edge community ensures that we don’t waste time chasing easily-fixed bugs or pitfalls. We also can reuse existing elements to maintain consistency with the design.</p>
+            <p>As an added bonus, VZBootstrap’s styling layer sits atop of the core bootstrap framework, thus not interfering with core framework functionality. VZBootstrap uses Grunt for its build system, with convenient methods for working with the framework. It's how we compile, compress and minify our code. Start with <a href="templates/default.html">this basic plain HTML template</a>, or modify our <a href="templates/starter.html">Starter Template</a>, <a href="templates/standard.html"> Verizon Standard Template </a>, or the template that demonstrates<a href="templates/layouts.html">Various Page Layouts</a> templates. We hope you'll customize our templates and utilize the examples located on the right sidebar section, adapting them to suit your needs.</p>
+            <div class="row">
+              <div class="col-sm-6">
+                <h3 class="text-brand-red">Features</h3>
+                <p class="lead">
+                    <ul>
+                      <li>Up-to-Date Verizon Branding </li>
+                      <li>Sass (CSS Preprocessor) Support </li>
+                      <li>Easy to Update via Grunt/Bower/Node </li>
+                      <li>Verizon Header Menu as a service (In Process)</li>
+                      <li>Custom Verizon Font Icons</li>
+                      <li>Support for Glyphicons (Included)</li>
+                      <li>Support for Font Awesome Icons (Included)</li>
+                    </ul>
+                </p>
+
+              </div>
+            </div>
+          </div>
+          
+          <p class="text-center">
+            <a href="subscribe/index.html" class="btn btn-success btn-lg" value="Download">
+            <span class="glyphicon glyphicon-download-alt"></span> Download
+            </a>
+          </p>
+          
+          <div>
+            <h2>Why Bootstrap?</h2>
+            <p>
+              <h3>Mobile First</h3>
+              With Bootstrap 3, the Bootstrap framework was rewritten to be mobile friendly from the start. Instead of adding on optional mobile styles, they're baked right into the core. In fact, Bootstrap itself is mobile first. Mobile first styles can be found throughout the entire library instead of in separate files.
+            </p>
+            <p>
+              <h3>Grid System</h3>
+              Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. It includes <a href="http://getbootstrap.com/css/#grid-example-basic">predefined classes</a> for easy layout options, as well as powerful <a href="http://getbootstrap.com/css/#grid-less">mixins for generating more semantic layouts.</a>
+              <ul class="list-dot">
+                <li>Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding.</li>
+                <li>Use rows to create horizontal groups of columns.</li>
+                <li>Content should be placed within columns, and only columns may be immediate children of rows.</li>
+                <li>Predefined grid classes like .row and .col-xs-4 are available for quickly making grid layouts. Less mixins can also be used for more semantic layouts.</li>
+                <li>Columns create gutters (gaps between column content) via padding. That padding is offset in rows for the first and last column via negative margin on .rows.</li>
+                <li>Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three .col-xs-4.</li>
+                <li>If more than 12 columns are placed within a single row, each group of extra columns will, as one unit, wrap onto a new line.</li>
+                <li>Grid classes apply to devices with screen widths greater than or equal to the breakpoint sizes, and override grid classes targeted at smaller devices. Therefore, e.g. applying any .col-md-* class to an element will not only affect its styling on medium devices but also on large devices if a .col-lg-* class is not present.</li>
+              </ul>
+            </p>
+           
+            <p>
+              <h3>Supported browsers</h3>
+              Specifically, we support the latest versions of the following browsers and platforms. On Windows, we support Internet Explorer 8-11. More specific support information is provided below.
+              <br />
+              <table class="table table-rwd table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <td></td>
+                    <th>Chrome</th>
+                    <th>Firefox</th>
+                    <th>Internet Explorer</th>
+                    <th>Opera</th>
+                    <th>Safari</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Android</th>
+                    <td class="text-success"><span aria-hidden="true" class="glyphicon glyphicon-ok"></span> Supported</td>
+                    <td class="text-success"><span aria-hidden="true" class="glyphicon glyphicon-ok"></span> Supported</td>
+                    <td style="vertical-align: middle;" rowspan="3" class="text-muted">N/A</td>
+                    <td class="text-danger"><span aria-hidden="true" class="glyphicon glyphicon-remove"></span> Not Supported</td>
+                    <td class="text-muted">N/A</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">iOS</th>
+                    <td class="text-success"><span aria-hidden="true" class="glyphicon glyphicon-ok"></span> Supported</td>
+                    <td class="text-muted">N/A</td>
+                    <td class="text-danger"><span aria-hidden="true" class="glyphicon glyphicon-remove"></span> Not Supported</td>
+                    <td class="text-success"><span aria-hidden="true" class="glyphicon glyphicon-ok"></span> Supported</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Mac OS X</th>
+                    <td class="text-success"><span aria-hidden="true" class="glyphicon glyphicon-ok"></span> Supported</td>
+                    <td class="text-success"><span aria-hidden="true" class="glyphicon glyphicon-ok"></span> Supported</td>
+                    <td class="text-success"><span aria-hidden="true" class="glyphicon glyphicon-ok"></span> Supported</td>
+                    <td class="text-success"><span aria-hidden="true" class="glyphicon glyphicon-ok"></span> Supported</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Windows</th>
+                    <td class="text-success"><span aria-hidden="true" class="glyphicon glyphicon-ok"></span> Supported</td>
+                    <td class="text-success"><span aria-hidden="true" class="glyphicon glyphicon-ok"></span> Supported</td>
+                    <td class="text-success"><span aria-hidden="true" class="glyphicon glyphicon-ok"></span> Supported</td>
+                    <td class="text-success"><span aria-hidden="true" class="glyphicon glyphicon-ok"></span> Supported</td>
+                    <td class="text-danger"><span aria-hidden="true" class="glyphicon glyphicon-remove"></span> Not Supported</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              Unofficially, Bootstrap should look and behave well enough in Chromium and Chrome for Linux, Firefox for Linux, and Internet Explorer 7, though they are not officially supported.
+              
+              <h4>Internet Explorer 8 and 9</h4>
+              Internet Explorer 8 and 9 are also supported, however, please be aware that some CSS3 properties and HTML5 elements are not fully supported by these browsers. In addition, Internet Explorer 8 requires the use of <a href="https://github.com/scottjehl/Respond">Respond.js</a> to enable media query support.
+            </p>
+
+          </div>
+
+
+        </div>
+
+        <div class="col-md-3 col-sm-3">
+          <!-- list of the components -->
+          <br />
+          <ul class="list-none section-divider-bottom">
+              <li><h3 class="text-brand-red">Getting Started</h3></li>
+              <li><a title="Plain Template" href="templates/default.html">Plain Template</a></li>
+              <li><a title="Starter Template" href="templates/starter.html">Starter Template</a></li>
+              <li><a title="Starter Template" href="templates/starter_dropdown.html">Starter Template (With Dropdown Menu)</a></li>
+              <li><a title="Standard Template" href="templates/standard.html">Standard Template</a></li>
+              <li><a title="Grid Layouts" href="templates/layouts.html">Various Layouts</a></li>
+              <li><a title="Verizon Header" href="templates/header.html">Verizon Header</a></li>
+          </ul>
+          <ul class="list-none section-divider-bottom">
+              <li><h3 class="text-brand-red">Navigation Methods</h3></li>
+              <li><a title="ABC Navigation" href="templates/abc_navigation.html">A-Z Navigation</a></li>
+              <li><a title="Breadcrumb" href="templates/breadcrumb.html">Breadcrumb</a></li>
+              <li><a title="Intranet Footer" href="templates/footer.html">Page Footer</a></li>
+              <li><a title="Intranet Footer" href="templates/sticky_footer.html">Sticky Footer</a></li>
+              <li><a title="Pagination" href="templates/pagination.html">Pagination</a></li>
+              <li><a title="Progress Indication" href="templates/progressbars.html">Progress Indication</a></li>
+              <li><a title="Tabs" href="templates/tabs.html">Tabs</a></li>
+              <li><a title="Tree Navigation" href="templates/treenavigation.html">Tree Navigation</a></li>
+              <li><a title="Help Feedback" href="templates/help-feedback.html">Help &amp; Feedback</a></li>
+              <li><a title="User Profile" href="templates/user-profile.html">User Profile</a></li>
+          </ul>
+          <ul class="list-none section-divider-bottom">
+              <li><h3 class="text-brand-red">Input / Interaction</h3></li>
+              <li><a title="Autocomplete" href="templates/typeahead.html">Typeahead</a></li>
+              <li><a title="Buttons" href="templates/buttons.html">Buttons</a> </li>
+              <li><a title="Basic Form Layout" href="templates/form_elements.html">Form Elements</a></li>
+          </ul>
+          <ul class="list-none section-divider-bottom">
+              <li><h3 class="text-brand-red">Content Layout</h3></li>
+              <li><a title="Accordion" href="templates/accordion.html">Accordion</a></li>
+              <li><a title="Alert Messages" href="templates/notifications.html">Alert Notifications</a></li>
+              <li><a title="Content Slider" href="templates/carousel.html">Carousel</a></li>
+              <li><a title="Data Table" href="templates/tables.html">Data Table</a></li>
+              <li><a title="Date Picker" href="templates/datepicker.html">Date Picker</a></li>
+              <li><a title="Headings" href="templates/headings.html">Headings</a></li>
+              <li><a title="Modal Popups" href="templates/modal_popups.html">Modal Popups</a></li>
+              <li><a title="Tooltip" href="templates/tooltip.html">Tooltip</a></li>
+          </ul>
+          <ul class="list-none section-divider-bottom">
+            <li><h3 class="text-brand-red">Other</h3></li>
+            <li><a title="Verizon Glyph Icons" href="templates/vzglyph_icons.html">VZGlyph Icons</a></li>
+          </ul>
+        </div> 
+      </div>   
+      
+
+      
+    </div><!-- /.container -->
+
+    <!-- Global Footer -->
+    <footer class="container disclaimer padding-left-right-zero">
+        <div class="row">
+            <div class="col-md-8 col-xs-8">
+                <p>Proprietary and Confidential. Not for disclosure outside of Verizon.</p>
+            </div>
+            <div class="col-md-4 col-xs-4">
+                <p class="pull-right pull-mobile-none">Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script>
+                </p>
+            </div>
+        </div>
+    </footer>
+	  
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="scripts/jquery.min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <script src="scripts/vzbootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>VZ Bootstrap Framework | Verizon</title>
+    <!-- Bootstrap core CSS -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/vzbootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="scripts/html5shiv.min.js"></script>
+      <script src="scripts/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!--Global Navigation-->
+    <header class="vz-global-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="http://vzdesign.verizon.com">VZDesign Home</a></li>
+              <li><a href="http://vzdesign.verizon.com/downloads/IntranetDesignGuidelines.pdf">Guidelines</a></li>
+              <li><a href="http://vzdesign.verizon.com/vzbootstrap">VZBootstrap</a></li>
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+    </header>
+
+    <div class="container whitepage">
+
+      <div class="row row-eq-height">
+        <div class="col-md-12 col-sm-12">
+          <br />
+          <div class="section-divider-bottom">
+            <h2>VZBootstrap</h2>
+            <p>VZBootstrap is based on Bootstrap 3, the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. We chose this framework because it boasts an expansive community of developers and experts alongside rock-solid features and robust durability. This deep commercial and non-commercial cutting-edge community ensures that we don’t waste time chasing easily-fixed bugs or pitfalls. We also can reuse existing elements to maintain consistency with the design.</p>
+            <p>As an added bonus, VZBootstrap’s styling layer sits atop of the core bootstrap framework, thus not interfering with core framework functionality. VZBootstrap uses Grunt for its build system, with convenient methods for working with the framework. It's how we compile, compress and minify our code. Start with <a href="templates/default.html">this basic plain HTML template</a>, or modify our <a href="templates/starter.html">Starter Template</a>, <a href="templates/standard.html"> Verizon Standard Template </a>, or the template that demonstrates<a href="templates/layouts.html">Various Page Layouts</a> templates. We hope you'll customize our templates and utilize the examples located on the right sidebar section, adapting them to suit your needs.</p>
+            <div class="row">
+              <div class="col-sm-6">
+                <h3 class="text-brand-red">Features</h3>
+                <p class="lead">
+                    <ul class="list-dot">
+                      <li>Up-to-Date Verizon Branding </li>
+                      <li>Sass (CSS Preprocessor) Support </li>
+                      <li>Easy to Update via Grunt/Bower/Node </li>
+                      <li>Verizon Header Menu as a service (In Process)</li>
+                      <li>Custom Verizon Font Icons</li>
+                      <li>Support for Glyphicons (Included)</li>
+                      <li>Support for Font Awesome Icons (Included)</li>
+                    </ul>
+                </p>
+
+              </div>
+            </div>
+          </div>
+          
+          <p class="text-center">
+            <a href="subscribe/index.html" class="btn btn-success btn-lg" value="Download">
+            <span class="glyphicon glyphicon-download-alt"></span> Download
+            </a>
+          </p>
+          
+          <!-- Headings Tags -->
+          <div class="clearfix section-divider-bottom">
+            <h1 class="text-brand-red">Headings</h1>
+            <br />
+            <h1>H1 Heading</h1>
+            <h2>H2 Heading</h2>
+            <h2 class="text-brand-red">Heading Verizon Red</h2>
+            <h3>H3 Heading</h3>
+            <h4>H4 Heading</h4>
+            <h5>H5 Heading</h5>
+            <h6>H6 Heading</h6>
+          </div>
+          
+          <!-- Breadcrumb -->
+          <div class="clearfix section-divider-bottom">
+            <h1 class="text-brand-red">Breadcrumb</h1>
+            <ol class="breadcrumb">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Library</a></li>
+              <li class="active">Data</li>
+            </ol>
+          </div>
+
+                    <!-- Forms -->
+          <div class="clearfix section-divider-bottom">
+            <h2 class="text-brand-red">Form Elements</h2>
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group has-feedback margin-zero clearfix">
+                <label for="search" class="sr-only">Verizon Search</label>
+                <input type="text" id="search" class="form-control" placeholder="Search">
+                <button class="btn btn-default glyphicon glyphicon-search form-control-feedback"></button>
+              </div>
+
+              <div class="">
+                <label for="usr">Name:</label>
+                <input type="text" class="form-control" id="usr">
+              </div>
+
+              <div class="">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+              </div>
+
+              <div class="">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+              
+              <div class="">
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Option 1</label>
+                </div>
+                <div class="checkbox clearfix">
+                  <label><input type="checkbox" value="">Option 2</label>
+                </div>
+                <div class="checkbox disabled clearfix">
+                  <label><input type="checkbox" value="" disabled>Option 3</label>
+                </div>
+              </div>
+
+              <div class="">
+                <div class="radio">
+                  <label><input type="radio" name="optradio">Option 1</label>
+                </div>
+                <div class="radio">
+                 <label><input type="radio" name="optradio">Option 2</label>
+                </div>
+                <div class="radio disabled">
+                  <label><input type="radio" name="optradio" disabled>Option 3</label>
+                </div>
+              </div>
+
+              <div class="">
+                <div class="form-group">
+                  <label for="sel1">Select list:</label>
+                  <select class="form-control" id="sel1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </div>
+              </div>
+
+            </form>
+          </div>
+
+                    <!-- Buttons -->
+          <div class="clearfix section-divider-bottom">
+            <h2 class="text-brand-red">Buttons</h2>
+            <p><button type="button" class="btn btn-danger btn-large">Primary</button></p>
+            <p><button type="button" class="btn btn-default btn-large">Default/Standard</button></p>
+            <p><button type="button" class="btn btn-success btn-large">Success</button></p>
+          </div>
+
+          <!-- Tabs -->
+          <div class="clearfix section-divider-bottom">
+            <h2 class="text-brand-red">Tabs</h2>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Tab First....</a></li>
+              <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Tab Second....</a></li>
+              <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Tab Third....</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="home">Content for First Tab...</div>
+              <div role="tabpanel" class="tab-pane" id="profile">Content for Second Tab...</div>
+              <div role="tabpanel" class="tab-pane" id="messages">Content for Third Tab...</div>
+            </div>
+          </div>
+
+          <!-- Accordion -->
+          <div class="panel-group clearfix section-divider-bottom" class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
+            <h2 class="text-brand-red">Accordion</h2>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Collapsible Group Item #1
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group Item #2
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #3
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pagination -->
+          <div class="clearfix section-divider-bottom">
+            <h2 class="text-brand-red">Pagination</h2>
+            <ul class="pagination ">
+              <li class="disabled"><a href="">First</a></li>
+              <li class="disabled"><a href="">Previous</a></li>
+              <li class="active"><a href="">1</a></li>
+              <li><a href="">2</a></li>
+              <li><a href="">3</a></li>
+              <li><a href="">4</a></li>
+              <li><a href="">5</a></li>
+              <li><a href="">Next</a></li>
+              <li><a href="">Last</a></li>
+            </ul>
+          </div>
+
+          <!-- Progress Bars -->
+          <div class="clearfix section-divider-bottom">
+            <h2 class="text-brand-red">Progress Bars</h2>
+            <!-- <p>Create a stacked progress bar by placing multiple bars into the same div with class .progress:</p> -->
+            <h3>With Label</h3>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+               60%
+              </div>
+            </div>
+          </div>
+
+          <!-- Contextual alternatives Progress Bars with Labels --> 
+          <div class="clearfix section-divider-bottom">
+            <h3>Contextual alternatives</h3>
+            <div class="progress">
+            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%
+              <span class="sr-only">40% Complete (success)</span>
+            </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-
+              valuemax="100" style="width: 20%">20%
+              <span class="sr-only">20% Complete</span>
+            </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%
+              <span class="sr-only">60% Complete (warning)</span>
+            </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%
+              <span class="sr-only">80% Complete (danger)</span>
+             </div>
+            </div>
+          </div>
+
+          <!-- Animated Progress Bars-->     
+          <div class="clearfix section-divider-bottom">
+            <h3>Animated</h3>
+              <div class="progress">
+              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+              <span class="sr-only">45% Complete</span>
+              </div>
+              </div>
+          </div>
+
+
+        <!-- Tree Navigation  -->
+
+        <div class="clearfix section-divider-bottom">
+          <h2 class="text-brand-red">Tree Navigation</h2>  
+            <div class="row">
+              <div class="col-lg-3">
+                <ul class="nav nav-list nav-tree">
+                  
+                  <li class="tree trunk"> <!-- level 1 -->
+                    <ul class="nav nav-list">
+                      <li class="branch-header">
+                        <a class="tree-toggler" href="#"><span class="fa fa-plus"></span> Menu 1 </a>
+                      </li>
+                      <li class="tree stem branch"> <!-- level 1.1 -->
+                        <ul class="nav nav-list">
+                          <li class="branch-header">
+                            <a class="tree-toggler" href="#"><span class="fa fa-plus"></span> Menu 1.1 </a>
+                          </li>
+                          <li class="tree stem"><a href="#"> Menu 1.1.1 </a></li>
+                          <li class="tree stem"><a href="#"> Menu 1.1.2 </a></li>
+                        </ul>
+                      </li>
+                      <li class="tree stem branch"> <!-- level 1.1 -->
+                        <ul class="nav nav-list">
+                          <li class="branch-header">
+                            <a class="tree-toggler" href="#"><span class="fa fa-plus"></span> Menu 1.2 </a>
+                          </li>
+                          <li class="tree stem"><a href="#"> Menu 1.2.1 </a></li>
+                          <li class="tree stem"><a href="#"> Menu 1.2.2 </a></li>
+                        </ul>
+                      </li> <!-- /level 1.1 -->
+                    </ul>
+                  </li> <!-- /level 1 -->
+   
+                  <li class="tree trunk"> <!-- level 2 -->
+                    <ul class="nav nav-list">
+                      <li class="branch-header">
+                        <a class="tree-toggler" href="#"><span class="fa fa-plus"></span> Menu 2</a>
+                      </li>
+                      <li class="tree stem branch"> <!-- level 2.1 -->
+                        <ul class="nav nav-list">
+                          <li class="branch-header">
+                            <a class="tree-toggler" href="#"><span class="fa fa-plus"></span> Menu 2.1 </a>
+                          </li>
+                          <li class="tree stem"> <a href="#"> Menu 2.1.1 </a> </li>
+                          <li class="tree stem"> <a href="#"> Menu 2.1.2 </a> </li>
+                          <li class="tree stem branch"> <!-- level 2.1.1 -->
+                            <ul class="nav nav-list">
+                              <li class="branch-header">
+                                <a class="tree-toggler" href="#"><span class="fa fa-plus"></span> Menu 2.1.3</a>
+                              </li>
+                              <li class="tree stem"><a href="#"> Menu 2.1.3.1 </a></li>
+                              <li class="tree stem"><a href="#"> Menu 2.1.3.2 </a></li>
+                            </ul>
+                          </li> <!-- /level 2.1.1 -->
+                        </ul>
+                      </li> <!-- /level 2.1 -->
+                      <li class="tree stem branch"> <!-- level 2.2 -->
+                        <ul class="nav nav-list">
+                          <li class="branch-header">
+                            <a class="tree-toggler" href="#"><span class="fa fa-plus"></span> Menu 2.2 </a>
+                          </li>
+                          <li class="tree stem"> <a href="#"> Menu 2.2.1</a></li>
+                          <li class="tree stem"> <a href="#"> Menu 2.2.2</a></li>
+                          <li class="tree stem branch"> <!-- level 2.2.1 -->
+                            <ul class="nav nav-list">
+                              <li class="branch-header">
+                                <a class="tree-toggler" href="#"><span class="fa fa-plus"></span> Menu 2.2.3 </a>
+                              </li>
+                              <li class="tree stem"> <a href="#"> Menu 2.2.3.1 </a></li>
+                              <li class="tree stem"> <a href="#"> Menu 2.2.3.2 </a></li>
+                            </ul>
+                          </li> <!-- /level 2.2.1 -->
+                        </ul>
+                      </li> <!-- /level 2.2 -->
+                    </ul>
+                  </li> <!-- /level 2 -->
+
+                </ul>
+              </div>
+            </div>
+          </div> <!-- tree navigation end -->
+
+                    <!-- Notifications -->
+          <div class="clearfix section-divider-bottom">
+            <h2 class="text-brand-red">Notifications</h2>
+            <div class="alert alert-danger clearfix" role="alert">
+              <a class="close" data-dismiss="alert" href="#">&times;</a>
+              <h3><span aria-hidden="true"></span> <strong>Error</strong></h3>
+              <p>An Error occured!</p>
+            </div>
+            <br />
+            <div class="alert alert-success clearfix" role="alert">
+              <a class="close" data-dismiss="alert" href="#">&times;</a>
+              <h3><span aria-hidden="true"></span> <strong>Success.</strong></h3>
+              <p>A Success Notification!</p>
+            </div>
+            <br />
+            <div class="alert alert-warning clearfix" role="alert">
+              <a class="close" data-dismiss="alert" href="#">&times;</a>
+              <h3><span aria-hidden="true"></span> <strong>Warning</strong></h3>
+              <p>A warning message awaits you!</p>
+            </div>
+            <br />
+            <div class="alert alert-info clearfix" role="alert">
+              <a class="close" data-dismiss="alert" href="#">&times;</a>
+              <h3><span aria-hidden="true"></span> <strong>Info/Notice</strong></h3>
+              <p>A Informational message!</p>
+            </div>
+          </div>
+
+                    <!-- Tables -->
+          <div class="clearfix section-divider-bottom">
+            <h2 class="text-brand-red">Tables</h2>
+            <table class="table table-hover table-striped table-rwd">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Laurie</td>
+                  <td>Chessie</td>
+                  <td>@lolly</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Rachel</td>
+                  <td>Knickmer</td>
+                  <td>@rach</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Fahim</td>
+                  <td>Mohammed</td>
+                  <td>@fahim</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+                    <!-- Modal Popup -->
+          <div class="clearfix section-divider-bottom">
+            <h2 class="text-brand-red">Modal Popup</h2>
+            <!-- Button trigger modal -->
+            <a href="#myModal" data-toggle="modal" data-target="#myModal" class="">Launch Modal</a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Title</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Done</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Popup -->
+          <div class="abc-navigation section-divider-bottom clearfix">
+            <h2 class="text-brand-red">ABC Navigation (Button Group)</h2>
+            <div class="btn-group">
+              <button class="btn" data-toggle="tooltip" title="A">A</button>
+              <button class="btn" data-toggle="tooltip" title="B">B</button>
+              <button class="btn" data-toggle="tooltip" title="C">C</button>
+              <button class="btn" data-toggle="tooltip" title="D">D</button>
+              <button class="btn" data-toggle="tooltip" title="E">E</button>
+              <button class="btn" data-toggle="tooltip" title="F">F</button>
+              <button class="btn" data-toggle="tooltip" title="G">G</button>
+              <button class="btn" data-toggle="tooltip" title="H">H</button>
+              <button class="btn" data-toggle="tooltip" title="I">I</button>
+              <button class="btn" data-toggle="tooltip" title="J">J</button>
+              <button class="btn" data-toggle="tooltip" title="K">K</button>
+              <button class="btn" data-toggle="tooltip" title="L">L</button>
+              <button class="btn" data-toggle="tooltip" title="M">M</button>
+              <button class="btn" data-toggle="tooltip" title="N">N</button>
+              <button class="btn" data-toggle="tooltip" title="O">O</button>
+              <button class="btn" data-toggle="tooltip" title="P">P</button>
+              <button class="btn" data-toggle="tooltip" title="Q">Q</button>
+              <button class="btn" data-toggle="tooltip" title="R">R</button>
+              <button class="btn" data-toggle="tooltip" title="S">S</button>
+              <button class="btn" data-toggle="tooltip" title="T">T</button>
+              <button class="btn" data-toggle="tooltip" title="U">U</button>
+              <button class="btn" data-toggle="tooltip" title="V">V</button>
+              <button class="btn" data-toggle="tooltip" title="W">W</button>
+              <button class="btn" data-toggle="tooltip" title="X">X</button>
+              <button class="btn" data-toggle="tooltip" title="Y">Y</button>
+              <button class="btn" data-toggle="tooltip" title="Z">Z</button>
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>   
+      
+
+      
+    </div><!-- /.container -->
+
+<!-- Sticky Footer Toolbar -->
+    <div class="footer navbar-fixed-bottom ">
+      <div class="container">
+        <div class="row">
+          <div class="pull-left navbar-text">       
+            <button type="button" class="btn btn-default">Ok</button>
+          </div>      
+          <div class="pull-right navbar-text">       
+            <button type="button" class="btn btn-danger">Cancel</button>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Links Container -->
+    <footer class="container vz-footer">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <h2>Heading 1</h2>
+          <ul class="list">
+            <li><a href="javascript:;">Item One 1</a></li>
+            <li><a href="javascript:;">Item One 2</a></li>
+            <li><a href="javascript:;">Item One 3</a></li>
+            <li><a href="javascript:;">Item One 4</a></li>
+            <li><a href="javascript:;">Item One 5</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <h2>Heading 2</h2>
+          <ul class="list">
+            <li><a href="javascript:;">Item One 1</a></li>
+            <li><a href="javascript:;">Item One 2</a></li>
+            <li><a href="javascript:;">Item One 3</a></li>
+            <li><a href="javascript:;">Item One 4</a></li>
+            <li><a href="javascript:;">Item One 5</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <h2>Heading 3</h2>
+          <ul class="list">
+            <li><a href="javascript:;">Item One 1</a></li>
+            <li><a href="javascript:;">Item One 2</a></li>
+            <li><a href="javascript:;">Item One 3</a></li>
+            <li><a href="javascript:;">Item One 4</a></li>
+            <li><a href="javascript:;">Item One 5</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <h2>Heading 4</h2>
+          <ul class="list">
+            <li><a href="javascript:;">Item One 1</a></li>
+            <li><a href="javascript:;">Item One 2</a></li>
+            <li><a href="javascript:;">Item One 3</a></li>
+            <li><a href="javascript:;">Item One 4</a></li>
+            <li><a href="javascript:;">Item One 5</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Global Footer -->
+    <footer class="container disclaimer padding-left-right-zero">
+        <div class="row">
+            <div class="col-md-8 col-xs-8">
+                <p>Proprietary and Confidential. Not for disclosure outside of Verizon.</p>
+            </div>
+            <div class="col-md-4 col-xs-4">
+                <p class="pull-right pull-mobile-none">Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script>
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <script src="scripts/vzbootstrap.min.js"></script>
+  </body>
+</html>
