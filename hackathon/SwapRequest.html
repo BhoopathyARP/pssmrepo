@@ -29,8 +29,47 @@
 	<header class="vz-global-header">
 		<nav class="navbar navbar-default">
 			<div class="container">
-				<div class="navbar-header">
+				<table style="float:left;" class="navbar-header"><tr><td>
 					<a class="navbar-brand" href="#"></a>
+					</td></tr></table>
+			<table style="margin-top: 10%;float:right;">
+<tr>
+    <td>
+        <a href="Login.html" >Login/</a>
+    </td>
+    <td>
+        <a href="Register.html">Register</a>
+    </td>
+
+</tr>
+</table>
+
+<table style="margin-top: 10%;">
+<tr>    
+<div id='menu' style="margin-top: 10%;">
+    <ul>
+        <li><a href="#">Admin</a>
+            <ul>
+                <li><a href="dhtmlxScheduler_v4.3.1\samples\05_calendar\AllShift.html">All Shift</a></li>
+            </ul>        
+        </li>
+        <li><a href="#">Request</a>
+            <ul>
+                <li><a href="TimeOffRequest.html">Time Off Request</a></li>
+                <li><a href="SwapRequest.html">Swap Request</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Employee</a>
+			<ul>
+               <li><a href="#">My Shift</a></li>
+            </ul>
+		</li>
+			
+        </td>
+    </ul>   
+</div>
+</tr>
+</table>
 				</div>
 			</div>
 		</nav>
@@ -118,5 +157,88 @@
 	<script src="../scripts/jquery.min.js"></script>
 	<script src="../scripts/bootstrap.min.js"></script>
 	<script src="../scripts/vzbootstrap.min.js"></script>
+	<style type="text/css">
+
+a.initial {
+    color: #2da1c1;
+    font-size: small;
+    text-decoration: none;
+    position: absolute;
+}
+a.initial:hover
+{
+    color: #f90;
+    text-decoration: underline;         
+}
+
+
+a.initial2 {
+    color: #2da1c1;
+    font-size: small;
+    text-decoration: none;
+    position: absolute;
+}
+a.initial2:hover
+{
+    color: #f90;
+    text-decoration: underline;         
+}
+div {
+    width: 550px;
+    margin: 0px auto;
+}
+div ul li a:link, div ul li a:visited {
+    display: block;
+    background-color: #008B8B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: White;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    border-bottom: 1px solid #fff;
+    width: 170px;        
+}
+div ul li a:hover{
+    background-color: #030;
+}
+li ul li a:link, li ul li a:visited {
+    display: block;
+    background-color: #8FBC8F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: Blue;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    border-bottom: 1px solid #fff;
+    width: 170px;
+}
+li ul li a:hover {
+    background-color: #050;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;   
+}
+div ul li {
+    float: left;
+    margin-left: 5px;
+}
+ul li ul li {
+    float: none;
+    margin-left: 0px;
+}
+li ul {
+    display: none;  
+}
+li:hover ul{
+    display: block; 
+}
+</style>
+</style>
 </body>
 </html>
